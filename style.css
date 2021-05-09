@@ -1,6 +1,125 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
+header {
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-left {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 100px;
+}
+
+.header-right {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    line-height: 100px;
+    color: rgba(39, 44, 46);
+    display: block;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-wrapper {  
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.background {
+    background-image: url(Images/Background.jpeg);
+    filter: brightness(30%);
+    height: 800px;
+    background-size: cover;
+}
+
+.top-wrapper h1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.top-wrapper p {
+    color: rgba(232, 231, 230);
+    opacity: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.top-container {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.slogan-verb {
+    color: rgba(237, 181, 26);
+}
+
+.btn-wrapper a {
+    text-decoration: none;
+}
+
+.btn {
+    margin: 40px 10px;
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.google {
+    color: black;
+    background-color: white;
+}
+
+.facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+.github {
+    color: white;
+    background-color: black;
+}
+
+.twitter {
+    color: white;
+    background-color: #55acee;
+}
+
+.google-logo {
+    height: 15px;
+    margin-right: 15px;
+}
+
+.fa {
+    margin-right: 15px;
+}
