@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 /* HEADER CSS */
 header {
   background-color: black;
@@ -87,6 +91,7 @@ header {
   height: 5%;
   cursor: pointer;
 }
+
 /* TOP CSS */
 .top-wrapper {
   width: 100%;
@@ -245,12 +250,48 @@ header {
 
 /* FOOTER CSS */
 footer {
-  background-color: white;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+footer a, footer p {
+    color: #5A6669;
 }
 
 footer .container {
-  display: flex;
-  width: 90%;
-  margin: auto;
-  justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 60px auto 50px;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 124px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em 4em;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links svg {
+    width: 48px;
 }
