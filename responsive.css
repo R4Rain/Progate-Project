@@ -1,0 +1,80 @@
+/* FOR TABLETS */
+@media (max-width: 1000px)
+{
+    /* HEADER RESPONSIVE */
+    
+    /* TOP RESPONSIVE */
+    .background{
+        height: 620px;
+    }
+    .top-wrapper p{
+        font-size: 12px;
+    }
+    .btn{
+        padding: 8px 8px;
+    }
+    /* CONTENT RESPONSIVE */
+    .content >img{
+        width: 105px;
+        height: 105px;
+    }
+    .content-desc > h1{
+        font-size: 15px;
+    }
+    .content-desc > p{
+        font-size: 10px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #machine-learning{
+        padding-left: 38px;
+        padding-right: 50px;
+    }
+    /* FOOTER RESPONSIVE */
+}
+
+/* FOR HANDPHONE */
+@media (max-width: 670px)
+{
+    /* HEADER RESPONSIVE */
+    .nav-left-header{
+        display: none;
+    }
+    .nav-right-header{
+        display: none;
+    }
+    .bar-header{
+        display: block;
+    }
+    /* TOP RESPONSIVE */
+    .background{
+        height: 750px;
+    }
+    .top-wrapper h1{
+        font-size: 40px;
+    }
+    .top-wrapper p{
+        font-size: 12px;
+    }
+    .btn-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .btn{
+        width: 50%;
+        margin:20px 0px;
+    }
+
+    /* CONTENT RESPONSIVE */
+    .content-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        padding: 30px 0px;
+    }
+
+    /* FOOTER RESPONSIVE */
+
+}

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
     <link rel="icon" href="Images/ProCoder_.ico" type="image/x-icon">
     <title>Procoder</title>
 </head>
-
 <body>
     <header>
         <div class="logo-header">
@@ -24,8 +24,9 @@
             <a href="#Log-in">Log in</a>
             <a href="#Sign-in">Sign in</a>
         </div>
+        <span class="bar-header"><img src="Images/bar.png" alt=""></span>
     </header>
-
+ 
     <div class="top-wrapper">
         <div class="background"></div>
         <div class="top-container">
@@ -34,27 +35,50 @@
             <p>ProCoder is a website where you can easily learn coding.</p>
             <p>We provide a fully equipped coding environment and beginner friendly courses.</p>
             <div class="btn-wrapper">
-                <a href="#" class="btn google"><span><img class="logo-btn" src="Images/google logo.png"
-                            alt=""></span>Sign up with Google</a>
-                <a href="#" class="btn facebook"><span class="fa"><img class="logo-btn" src="Images/facebook.png"
-                            alt=""></span>Sign up with Facebook</a>
-                <a href="#" class="btn github"><span class="fa"><img class="logo-btn" src="Images/github.png"
-                            alt=""></span>Sign up with Github</a>
+                <a href="#" class="btn google"><span><img class="logo-btn" src="Images/google logo.png" alt=""></span>Sign up with Google</a>
+                <a href="#" class="btn facebook"><span class="fa"><img class="logo-btn" src="Images/facebook.png" alt=""></span>Sign up with Facebook</a>
+                <a href="#" class="btn github"><span class="fa"><img class="logo-btn" src="Images/github.png" alt=""></span>Sign up with Github</a>
             </div>
         </div>
     </div>
 
-    <!-- BELUM JADI -->
     <section>
         <div class="content-wrapper">
             <h1>OUR SERVICES</h1>
-            <div>
+            <div class="content-container">
+                <div class="content" id="web-dev">
+                    <img src="Images/web-dev.png" alt="">
+                    <div class="content-desc">
+                        <h1>Web Development</h1>
+                        <p>Learn the basics of web programming, such as</p>
+                        <p>HTML, CSS, JavaScript, jQuery, and PHP</p>
+                        <p>to create a dynamic web application</p>
+                    </div>
+                </div>
 
+                <div class="content" id="machine-learning">
+                    <img src="Images/machine-learning.png" alt="">
+                    <div class="content-desc">
+                        <h1>Machine Learning</h1>
+                        <p>Learn to use NumPy, Pandas, Matplotlib,</p>
+                        <p>Scikit Learn, Machine Learning,</p>
+                        <p>and more.</p>
+                    </div>
+                </div>
+
+                <div class="content" id="cp">
+                    <img src="Images/compe.png" alt="">
+                    <div class="content-desc">
+                        <h1>Competitive Programming</h1>
+                        <p>Build the foundation in Algorithms</p>
+                        <p>and Data Structures to ace Coding</p>
+                        <p>interviews and Competitive Programming</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer (BELUM) -->
     <footer>
         <div class="container">
             <div class="footer-logo">
@@ -116,6 +140,6 @@
             </ul>
         </div>
     </footer>
+    
 </body>
-
 </html>
