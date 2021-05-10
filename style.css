@@ -9,6 +9,10 @@ a{
     text-decoration:none;
 }
 
+li {
+    list-style: none;
+}
+
 /* HEADER CSS */
 header{
     background-color: black;
@@ -23,13 +27,16 @@ header{
     
     border-bottom: 2px solid black;
 }
+
 .logo-header{
     padding-left: 20px;
 }
+
 .logo-header img{
     width: 70px;
     height: 70px;
 }
+
 .nav-header > a{
     display: inline-block;
     padding: 12px 24px;
@@ -40,15 +47,18 @@ header{
     font-size: 12px;
     font-weight: 500;
 }
+
 .nav-left-header{
     position: absolute;
     left: 100px;
     padding-left: 20px;
 }
+
 .nav-right-header{
     position: absolute;
     right: 30px;
 }
+
 .nav-header > a:hover{
     border-bottom: 2px solid orange;
     color: white;
@@ -138,3 +148,17 @@ header{
 }
 
 /* CONTENT WRAPPER */
+
+
+/* FOOTER SECTION */
+footer {
+    background-color: white;
+}
+
+footer .container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
