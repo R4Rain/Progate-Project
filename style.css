@@ -9,9 +9,14 @@ a{
     text-decoration:none;
 }
 
+li {
+    list-style: none;
+}
+
 /* HEADER CSS */
 header{
     background-color: black;
+
     width: 100%;
     
     position:fixed;
@@ -23,13 +28,16 @@ header{
     
     border-bottom: 2px solid black;
 }
+
 .logo-header{
     padding-left: 20px;
 }
+
 .logo-header img{
     width: 70px;
     height: 70px;
 }
+
 .nav-header > a{
     display: inline-block;
     padding: 12px 24px;
@@ -40,30 +48,36 @@ header{
     font-size: 12px;
     font-weight: 500;
 }
+
 .nav-left-header{
     position: absolute;
     left: 100px;
     padding-left: 20px;
 }
+
 .nav-right-header{
     position: absolute;
     right: 30px;
 }
+
 .nav-header > a:hover{
     border-bottom: 2px solid orange;
     color: white;
     font-weight: bold;
 }
+
 .bar-header{
     display: none;
     position: absolute;
     right: -425px;
 }
+
 .bar-header>img{
     width: 15%;
     height: 5%;
     cursor: pointer;
 }
+
 /* TOP CSS */
 .top-wrapper {  
     width: 100%;
@@ -225,11 +239,37 @@ header{
 /* FOOTER CSS */
 footer {
     background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+footer a, footer p {
+    color: #5A6669;
 }
 
 footer .container {
     display: flex;
     width: 90%;
-    margin: auto;
+    margin: 80px auto;
     justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 124px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links svg {
+    width: 48px;
 }
