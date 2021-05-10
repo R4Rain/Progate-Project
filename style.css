@@ -1,54 +1,70 @@
-* {
+/* DO NOT CHANGE THIS CODE! */
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
 
-header {
-    height: 12%;
+a{
+    text-decoration:none;
+}
+
+/* HEADER CSS */
+header{
+    background-color: black;
     width: 100%;
-    position: fixed;
-    background-color: white;
-    top: 0;
+    
+    position:fixed;
+    top:0;
     z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    border-bottom: 2px solid black;
 }
-
-.container {
-    width: 1500px;
-    height: 100%;
-    margin: 0 auto;
+.logo-header{
+    padding-left: 20px;
 }
+.logo-header img{
+    width: 70px;
+    height: 70px;
+}
+.nav-header > a{
+    display: inline-block;
+    padding: 12px 24px;
+    line-height: 50px;
 
-.header-left {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.nav-left-header{
     position: absolute;
-    top: 0;
-    left: 30px;
-    height: 100px;
+    left: 100px;
+    padding-left: 20px;
 }
-
-.header-right {
+.nav-right-header{
     position: absolute;
-    top: 0;
     right: 30px;
-    line-height: 100px;
-    color: rgba(39, 44, 46);
-    display: block;
-    cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+}
+.nav-header > a:hover{
+    border-bottom: 2px solid orange;
+    color: white;
     font-weight: bold;
 }
 
+/* TOP CSS */
 .top-wrapper {  
     width: 100%;
-    height: 100px;
     text-align: center;
 }
 
 .background {
     background-image: url(Images/Background.jpeg);
     filter: brightness(30%);
-    height: 800px;
+    height: 650px;
     background-size: cover;
 }
 
@@ -65,21 +81,19 @@ header {
     opacity: 1;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+
+    margin: 5px 0px;
 }
 
 .top-container {
     position: absolute;
-    top: 300px;
+    top: 225px;
     width: 100%;
     text-align: center;
 }
 
 .slogan-verb {
     color: rgba(237, 181, 26);
-}
-
-.btn-wrapper a {
-    text-decoration: none;
 }
 
 .btn {
@@ -94,6 +108,7 @@ header {
 .btn:hover {
     opacity: 1;
 }
+
 
 .google {
     color: black;
@@ -110,16 +125,16 @@ header {
     background-color: black;
 }
 
-.twitter {
-    color: white;
-    background-color: #55acee;
-}
 
-.google-logo {
-    height: 15px;
+.logo-btn {
+    height: 20px;
     margin-right: 15px;
+    position: relative;
+    top:3px;
 }
 
 .fa {
     margin-right: 15px;
 }
+
+/* CONTENT WRAPPER */
