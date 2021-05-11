@@ -71,7 +71,7 @@
         height: 750px;
     }
     .top-wrapper h1{
-        font-size: 40px;
+        font-size: 37px;
     }
     .top-wrapper p{
         font-size: 12px;
@@ -83,11 +83,15 @@
         margin-top: 30px;
     }
     .btn{
-        width: 50%;
+        width: 70%;
         margin:20px 0px;
+
     }
 
     /* CONTENT RESPONSIVE */
+    .content-wrapper h1{
+        font-size: 35px;
+    }
     .content-container{
         display: flex;
         flex-direction: column;
@@ -102,16 +106,47 @@
         font-size:18px;
         font-weight: 300;
     }
+    .content2-wrapper h1{
+        font-size: 28px;
+    }
     .content2-wrapper p{
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
     }
     /* FOOTER RESPONSIVE */
-
 }
 
 @media (max-width: 420px) 
 {
+   /* HEADER RESPONSIVE */
+    .top-wrapper h1{
+        font-size: 32px;
+    }
+    .top-wrapper p{
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .btn{
+        padding: 10px;
+        font-weight: 300;
+    }
+    /* CONTENT RESPONSIVE */
+    .content-wrapper h1{
+        font-size: 30px;
+    }
+    .content h1{
+        font-size: 18px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content2-wrapper h1{
+        font-size: 24px;
+    }
+    .content2-wrapper p{
+        font-size: 15px;
+    }
+    
     /* FOOTER RESPONSIVE */
     .footer-links {
         grid-template-columns: 1fr;
